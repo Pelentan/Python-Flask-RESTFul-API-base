@@ -1,0 +1,6 @@
+The concept for this folder is to put models that control session data in file on a Mongo instance.  Usually run up specifically
+for the project.  Must ensure that the Mongo folder is stored on an "external" drive to the docker container.  Else all data will 
+be lost if the container is restarted.  
+
+While this isn't set up yet on this project, one of the next steps is to give a basic setup via dockerfile and compose file.  Tie 
+everything up in a neat, easy to duplicate, package.

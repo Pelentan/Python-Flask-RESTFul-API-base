@@ -1,0 +1,3 @@
+The concept for this folder is to put models that control session data in file on the "local" disk.  
+_Probably_ don't want to do this for most cases, as most use case scenario is for this to be depolyed to a docker container
+which could be short lived.

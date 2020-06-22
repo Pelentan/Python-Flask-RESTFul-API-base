@@ -1,0 +1,17 @@
+{
+    "HomeRoutes": {
+        "path": "/",
+        "allowed_methods": "GET",
+        "file": "home_routes"
+    },
+    "RoutesCold": {
+        "path": "/users",
+        "allowed_methods": "GET, PUT, POST, DELETE",
+        "file": "routes_template"
+    },
+    "RoutesHot": {
+        "path": "/users/<user_id>",
+        "allowed_methods": "GET, PUT, POST, DELETE",
+        "file": "routes_template"
+    }
+}

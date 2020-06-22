@@ -1,0 +1,9 @@
+I conceive of this having folders for different endpoints that are going to want to send back an HTML object
+along with the rest of the json.  React envisions all all html/css/js to be front loaded so all that's needed 
+are the individual data pieces from a json response.  However, in the real world, that only works for the main 
+portions of the page.  It is much more efficient and dynamic in every respect if certain sections are still 
+load-on-demand.  Especially with the move toward using Android and IOS devices. 
+
+Note:  The css files should _only_ be overrides or additions to the base css file front-loaded by React in most 
+cases.  And any JS should _never_ override.  The class/function returned should be named with the endpoint name to 
+ensure no conflicts with the primary load.

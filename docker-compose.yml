@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  pythonflasktraining:
+    image: pythonflasktraining
+    container_name: flasktraining
+    build:
+      context: .
+      dockerfile: .docker/endpoint_listener.dockerfile
+    volumes:
+      - .:/app
+    ports:
+      - 5000:5000

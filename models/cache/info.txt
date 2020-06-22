@@ -1,0 +1,1 @@
+The concept for this folder is to put models that control session data in active memory.

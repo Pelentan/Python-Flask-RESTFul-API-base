@@ -1,0 +1,14 @@
+# Python system optimized compiles
+__pycache__
+*.pyc
+
+.vscode/
+.venv/
+cov_html/
+.pytype/
+
+.coverage
+pylint.err
+cov.xml
+
+test-reports/
